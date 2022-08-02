@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.css" />
+    <title>Cinematic</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-center">
+        <!-- logo -->
+        <div class="header">
+          <button class="bar-btn"><i class="fa-solid fa-bars bar"></i></button>
+          <div class="logo">Cinematic</div>
+        </div>
+        <div class="nav-bar">
+          <!-- search -->
+          <form class="search-form">
+            <input
+              type="search"
+              id="search-input"
+              class="search-input"
+              placeholder="Search..."
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+          <!-- links -->
+          <ul class="nav-links">
+            <li>
+              <a href="movies.html"
+                ><i class="fa-solid fa-clapperboard"></i> Movies</a
+              >
+            </li>
+            <li>
+              <a href="thshows.html"
+                ><i class="fa-solid fa-video"></i> TV Shows</a
+              >
+            </li>
+            <li>
+              <a href="people.html"
+                ><i class="fa-solid fa-person"></i> People</a
+              >
+            </li>
+            <li>
+              <a href="more.html"><i class="fa-solid fa-film"></i> More</a>
+            </li>
+            <li class="login"><a href="">Log in</a></li>
+            <li class="register"><a href="">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="movies featured">
+        <article class="movie">
+          <img src="./images/test.jpg" class="movie-thumbnail" alt="" />
+          <h3>The Princess (2022)</h3>
+          <div class="rating">
+            Rating:
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <span class="movie-release-date">Date: 13/08/22</span>
+          <button class="movie-btn btn">Save to your list</button>
+        </article>
+        <article class="movie">
+          <img src="./images/test.jpg" class="movie-thumbnail" alt="" />
+          <h3>The Princess (2022)</h3>
+          <div class="rating">
+            Rating:
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <span class="movie-release-date">Date: 13/08/22</span>
+          <button class="movie-btn btn">Save to your list</button>
+        </article>
+      </section>
+    </main>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
